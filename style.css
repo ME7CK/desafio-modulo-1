@@ -1,0 +1,148 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+}
+figure{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo{ width: 10vw;
+}
+.atv{
+    width: 10vw;
+}
+.banner{
+    width: 100%;
+}
+
+
+
+main{ width: 100%;
+}
+.div0{ padding: 1vw;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:solid 1px #A5A1A1;
+}
+.sec1{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec2{
+width: 100%;
+height: 55vh;
+ display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.sec3{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div1{
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:"lato", sans-serif;
+}
+p{ font-size: 17px;
+}
+span{ color: #5CA720;
+    height: 5vh;
+    font-size: 25px;
+    font-weight: bold ;
+    font-family:"lato";
+}
+button{ background-color:  #5CA720;
+    color: #F9F9F9;
+    border-radius: 15px;
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    box-shadow: 0.5px 0.5px 2px 0.5px  #A5A1A1;
+}
+button:hover{ background-color: #512200BD;
+}
+img{
+    width: 15vw;
+}
+
+
+
+footer{border: solid 1px yellowgreen;
+    background-color: #ececec;
+    border-top:solid 1px #A5A1A1;
+    width: 100%;
+    
+}
+.sec4{width: 100;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw;
+}
+ul {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+}
+input{
+    width: 15vw;
+    height: 5vh;
+}
+.p1{
+    font-size: 20px;
+}
+.nav1{padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+    border-top:solid 1px #A5A1A1;
+    width: 100%;
+}
+.img0{
+    width: 6vw;
+}
+.bt1{
+    background-color:  #5CA720;
+    color: #F9F9F9;
+    border: none;
+    width: 10vw;
+    height: 5vh;   
+}
+
+@media (max-width: 610px){
+    figure{
+        width: 2vw;
+    }
+
+    
+}
+
